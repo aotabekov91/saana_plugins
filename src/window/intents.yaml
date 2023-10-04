@@ -1,0 +1,29 @@
+---
+type: intent
+name: changeWorkspace
+slots:
+  - name: workspace
+    entity: workspace
+utterances:
+  - '[workspace](five)'
+  - '[workspace](seven)'
+  - '[workspace](four)'
+  - '[workspace](nine)'
+  - workspace [workspace](five)
+
+---
+type: intent
+name: moveToWorkspace
+slots:
+  - name: workspace
+    entity: workspace
+utterances:
+  - move [workspace](eight)
+  - move [workspace](monday)
+  - move [workspace](march)
+
+---
+type: intent
+name: toggleFloating
+utterances:
+  - float
